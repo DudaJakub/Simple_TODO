@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Freckle+Face|Roboto&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  padding: 10px;
+  font-size: 10px;
+  background-color: dodgerblue;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px 5px 10px;
+  width: 100%;
+  max-width: 500px;
+  font-size: 2em;
+  border-radius: 20px;
+  border: 1px solid dodgerblue;
+  outline: none;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.buttons {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons i {
+  font-size: 4em;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.buttons i:not(:first-of-type) {
+  margin-left: 20px;
+}
+
+.list {
+  width: 100%;
+  max-width: 500px;
+  color: whitesmoke;
+  margin: 0px auto;
+}
+
+.list .element {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list .icons {
+  width: 100px;
+}
+
+.list p {
+  font-family: 'Freckle Face', cursive;
+  font-size: 2.8em;
+}
+
+.list i {
+  cursor: pointer;
+  font-size: 2.4em;
+}
+
+.list i:not(:first-of-type) {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
