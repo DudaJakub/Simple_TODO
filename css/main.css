@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Freckle+Face|Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Freckle+Face|Open+Sans&display=swap&subset=latin-ext");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ input {
   border: 1px solid dodgerblue;
   outline: none;
   height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .buttons {
@@ -66,9 +66,14 @@ input {
   width: 100px;
 }
 
-.list p {
+.list .number {
   font-family: 'Freckle Face', cursive;
-  font-size: 2.8em;
+  font-size: 3em;
+}
+
+.list .text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
 }
 
 .list i {
